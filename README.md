@@ -11,7 +11,8 @@ Just go to the link to use the program!
 Prerequisites : Python3 installation with standard library (math lib)
 1. Clone repository
 2. Run "main.py" using Python
-##Usage
+
+## Usage
 When the program starts up it gives you a welcome message:
 > Basic triangle calculator by Minedani129
 > Global options currently available: ...
@@ -25,7 +26,10 @@ The --ROUND option lets you specify how many decimal places you want to round to
 If you do not want to change any options you can just press enter without typing anything.
 
 After all that it tells you to enter hypotenuse length, leg1 length, and leg2 length. If you do not know a value (for example to find missing side) you can leave it blank and press enter. The program will automatically find the side length.
-The program will also output the perimeter and area. 
+The program will also output the perimeter and area.
+
+## Options / arguments
+* --ROUND \{int} - Round output to \{int} number of decimal places
 
 Note: If you come across any calculation errors or bugs please make an issue on Github cuz my math and coding is bad. Also make a feature request if u want.
 
