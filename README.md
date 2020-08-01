@@ -11,7 +11,6 @@ Just go to the link to use the program!
 Prerequisites : Python3 installation with standard library (math lib)
 1. Clone repository
 2. Run "main.py" using Python
-
 ##Usage
 When the program starts up it gives you a welcome message:
 > Basic triangle calculator by Minedani129
