@@ -27,7 +27,7 @@ If you do not want to change any options you can just press enter without typing
 After all that it tells you to enter hypotenuse length, leg1 length, and leg2 length. If you do not know a value (for example to find missing side) you can leave it blank and press enter. The program will automatically find the side length.
 The program will also output the perimeter and area. 
 
-Note: If you come across any calculation errors or bugs please make an issue on Github cuz my math and coding is bad.
+Note: If you come across any calculation errors or bugs please make an issue on Github cuz my math and coding is bad. Also make a feature request if u want.
 
 
 
