@@ -2,8 +2,12 @@
 # Type in 2 or 3 side lengths and it will output the perimeter
 import math
 
+#Welcome message
+print("Basic triangle calculator by Minedani129")
+print("Global options currently available: --ROUND {int}")
+
 #Get global options from input
-globalOptions = input("Global Options (--ROUND 2): ")
+globalOptions = input("Enter any global options. Else just leave empty and press enter: ")
 OptionDict = {}
 for i in globalOptions.split(","):
   if len(globalOptions) > 0:
@@ -27,7 +31,7 @@ while True:
     float(leg2) if leg2 != "" else 0
     float(hypotenuse) if hypotenuse != "" else 0
   except:
-    print("Check that the numbers are actual numbers")
+    print("Error trying to convert numbers. Try again and check your input.")
     continue
 
   #Convert to float
@@ -47,13 +51,16 @@ while True:
     leg = math.sqrt(hypotenuse * hypotenuse - leg2 * leg2)
     print("Leg1 is ", round(leg, ROUND))
     print("Perimeter is", round(leg + leg2 + hypotenuse, ROUND))
+    print("Area is", round(leg * leg2 / 2, ROUND))
   elif not leg2 and hypotenuse and leg1:
     print("Calculating leg2 length")
     leg = math.sqrt(hypotenuse * hypotenuse - leg1 * leg1)
     print("Leg1 is", round(leg, ROUND))
     print("Perimeter is", round(leg + leg1 + hypotenuse,ROUND))
+    print("Area is", round(leg * leg1 / 2))
   elif hypotenuse and leg1 and leg2:
     print("Perimeter is ", round(hypotenuse + leg1 + leg2, ROUND))
+    print("Area is", round(leg1 * leg2 / 2))
   else:
     print("You supplied less than 2 lengths.")
 
