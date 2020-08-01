@@ -20,6 +20,6 @@ jobs:
     steps:
       - name: Black Check
         uses: jpetrucciani/black-check@19.10b0
-        with:
+        with:k
           # File or directory to run black on
-          path: main.py
+          path: /Basic-Triangle-Calculator
