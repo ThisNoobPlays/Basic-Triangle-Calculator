@@ -1,5 +1,5 @@
 # Basic-Triangle-Calculator
-Basic triangle calculator that can calculate side lengths, perimeter, and area\\
+Basic triangle calculator that can calculate side lengths, perimeter, and area
 Repl.it repository : https://repl.it/@CyanandDani/Basic-Triangle-Calculator
 
 ## Get Started
