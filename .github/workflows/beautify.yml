@@ -18,5 +18,8 @@ jobs:
 
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
-      - name: Black Code Formatter
-        uses: lgeiger/black-action@v1.0.1
+      - name: Black Check
+        uses: jpetrucciani/black-check@19.10b0
+        with:
+          # File or directory to run black on
+          path: .
